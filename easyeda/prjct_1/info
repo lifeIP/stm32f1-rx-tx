@@ -1,0 +1,119 @@
+{
+  "uuid": "6e495ee2d7bf50fffabeac982cda0021",
+  "path": "Offline/prjct_1",
+  "name": "prjct_1",
+  "content": "",
+  "created_at": "2023-04-16 23:19:08",
+  "updated_at": "2023-04-18 01:46:59",
+  "stick": "",
+  "documents": [
+    {
+      "uuid": "33008fc54b3b190c5c48d48b15fc01e0",
+      "title": "Sheet_1",
+      "description": "",
+      "docType": "1",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "5d4a4ccdd6ec415a86456ce86843468c": 2,
+        "eb2a7fe431fc4244a733613d88772865": 2,
+        "ced0c245f53242faaa2785079ecdf1c9": 1,
+        "12c7579d61dc4f8e992fa514f61ad71f": 1
+      },
+      "BOM": [
+        [
+          "Value",
+          "Quantity",
+          "Package",
+          "Components",
+          "CustomPara"
+        ],
+        [
+          "Resistor Bourns3296 10кОм",
+          1,
+          "BOURNS3296 10КОМ",
+          "R1",
+          {
+            "BOM_Manufacturer": "Bourns",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "89a3950e1a324df8822044345288436d",
+            "uuid": "12c7579d61dc4f8e992fa514f61ad71f"
+          }
+        ],
+        [
+          "STM32Duino_2",
+          2,
+          "STM32F103C8T6-BLUEPILL",
+          "U1,U2",
+          {
+            "BOM_Manufacturer Part": "STM32Duino",
+            "puuid": "577e1135bae44812b289e53ced2bd4d9",
+            "uuid": "5d4a4ccdd6ec415a86456ce86843468c"
+          }
+        ],
+        [
+          "Семисегментник",
+          2,
+          "СЕМИСЕГМЕНТНИК(34)",
+          "U3,U4",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "3baf9c482af949ae8cdc68785b8c99b6",
+            "uuid": "eb2a7fe431fc4244a733613d88772865"
+          }
+        ],
+        [
+          "Светодиод +",
+          1,
+          "СВЕТОДИОД +",
+          "VD1",
+          {
+            "BOM_Manufacturer": "",
+            "BOM_Manufacturer Part": "Светодиод",
+            "BOM_Supplier Part": "",
+            "BOM_Supplier": "",
+            "puuid": "10065ee76cfc4a4387d48176246dcfaf",
+            "uuid": "ced0c245f53242faaa2785079ecdf1c9"
+          }
+        ]
+      ],
+      "updateTime": 1681757192,
+      "createTime": 1681661949,
+      "histories": [],
+      "created_at": "2023-04-16 23:19:09",
+      "updated_at": "2023-04-18 01:46:32"
+    },
+    {
+      "uuid": "0568cf5e8173b3972d67bb7313096eff",
+      "puuid": "6e495ee2d7bf50fffabeac982cda0021",
+      "title": "PCB_prjct_1",
+      "filename": "PCB_prjct_1.json",
+      "description": "",
+      "docType": "3",
+      "master": "",
+      "thumb": "/images/thumb-default.png",
+      "components": {
+        "89a3950e1a324df8822044345288436d": 1,
+        "577e1135bae44812b289e53ced2bd4d9": 2,
+        "3baf9c482af949ae8cdc68785b8c99b6": 2,
+        "10065ee76cfc4a4387d48176246dcfaf": 1
+      },
+      "BOM": [],
+      "updateTime": 1681757219,
+      "createTime": 1681757169,
+      "histories": [],
+      "created_at": "2023-04-18 01:46:09",
+      "updated_at": "2023-04-18 01:46:59"
+    }
+  ],
+  "sort": [],
+  "title": "prjct_1",
+  "foldername": "prjct_1",
+  "schfilename": "prjct_1.json",
+  "schfilemtime": 1681757194000
+}
